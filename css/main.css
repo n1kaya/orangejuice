@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 18px;
+	font-family: 'Mitr', sans-serif;
+	background-color: #f2f2f2;
+}
+nav {
+	background-color: #fe7e00;
+	height: 60px;
+	border-bottom: 5px solid #f07008;
+}
+nav .logo {
+	float: left;
+	margin-left: 5%;
+	position: relative;
+	top: 15px;
+}
+nav ul {
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+	font-size: 14px;
+	font-weight: 200;
+	margin-right: 5%;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #f8dcad;
+	display: inline-block;
+	padding: 20px 30px;
+}
+nav ul li a:hover {
+	background-color: #f07008;
+	cursor: default;
+}
+.searchBox {
+	float: right;
+	margin-right: 15px;
+}
+input {
+	background-color: #EDEDED;
+	border: none;
+	width: 120px;
+	height: 30px;
+}
+input[type=text] {
+	margin: 2px 20px;
+	color: black;
+	text-align: left;
+	padding-left: 15px;
+}
+
+header {
+	padding: 7% 0 85px 0;
+}
+header .orangePic {
+	float: left;
+	display: inline-block;
+	margin-left: 17%;
+	margin-right: 10px;
+}
+header div.motto p{
+	color: #fe7e00;
+	font-family: 'Cairo', sans-serif;
+	font-size: 30px;
+	position: relative;
+	bottom: 50px;
+	left: -180px;
+	right: 10px;
+	display: inline-block;
+	float: right;
+	padding: 30px 60px 0px 50px;
+}
+
+.orange {
+	font-weight: 900;
+}
+
+.aqua {
+	color: #7accc8;
+	font-weight: 900;
+}
+
+.buttons {
+	position: relative;
+	top: -30px;
+	display: inline-block;
+}
+
+.buttons .quote {
+	background-color: #fe7e00;
+	color: #f8dcad;
+	font-family: 'Cairo', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 50px;
+	width: 170px;
+	border: none;
+	border-radius: 2px;
+	margin-right: 35px;
+	margin-left: 10px;
+}
+
+.buttons .view {
+	background-color: #7accc8;
+	color: #EDEDED;
+	font-family: 'Cairo', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 50px;
+	width: 170px;
+	border: none;
+	border-radius: 2px;
+}
+
+footer {
+	height: 60px;
+	background-color: #7accc8;
+	border-top: 5px solic #79cac5;
+}
